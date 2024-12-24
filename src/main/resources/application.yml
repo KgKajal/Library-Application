@@ -1,0 +1,19 @@
+server:
+  port: 8080
+my:
+  property: Arjunan
+spring:
+  application:
+    name: SpringBootPraxis
+  datasource:
+    url: jdbc:h2:mem:cc28852f-98a1-4210-9640-0de9559740d7;AUTO_RECONNECT=TRUE
+    username: SA
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
